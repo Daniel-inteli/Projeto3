@@ -58,6 +58,12 @@ nav{
     color: aqua;
 }
 
-p{
-    background: url(./cientista\ 1.png);
+
+
+#loginBody{
+    
+    background-image: url('cientista_1.png');
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
 }
