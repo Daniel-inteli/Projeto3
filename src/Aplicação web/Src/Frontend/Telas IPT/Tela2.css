@@ -1,0 +1,132 @@
+body{
+    background: #F3F3F3;;
+}
+
+.logo{
+    width: 97px;
+    height: 39px;
+    left: 253px;
+    padding-left: 200px;
+    margin-top: 25px;
+}
+
+.inputLupa{
+
+}
+
+.objeto{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 245px;
+    text-align: center;
+}
+
+section{
+    background-color: rgb(199, 199, 199);
+    border-radius: 10px;
+    padding: 12px;
+    width: 354px;
+    height: 96px;
+    margin: auto;
+    text-align: center;
+}
+
+nav{
+    background-color: #ECF8FF;
+    left: 110px;
+    text-align: center;
+}
+
+
+
+h1{
+    margin-right: 40px;
+}
+
+h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #8B1E04;
+}
+
+.caixinha1{
+    position: absolute;
+    width: 71px;
+    height: 75px;
+    left: 300px;
+    top: 134px;
+    background: rgba(254, 58, 12, 0.38);
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.caixinha2{
+    position: absolute;
+    width: 71px;
+    height: 75px;
+    left: 300px;
+    top: 274px;
+    background: rgba(254, 58, 12, 0.38);
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.caixinha3{
+    position: absolute;
+    width: 71px;
+    height: 75px;
+    left: 300px;
+    top: 414px;
+    background: rgba(254, 58, 12, 0.38);
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.caixinha4{
+    position: absolute;
+    width: 71px;
+    height: 75px;
+    left: 300px;
+    top: 554px;
+    background: rgba(254, 58, 12, 0.38);
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.caixinha5{
+    position: absolute;
+    width: 71px;
+    height: 75px;
+    left: 300px;
+    top: 694px;
+    background: rgba(254, 58, 12, 0.38);
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.procura{
+    position: absolute;
+width: 332px;
+height: 56px;
+left: 18px;
+top: 104px;
+
+background: #FFFFFF;
+border-radius: 25px;
+}
