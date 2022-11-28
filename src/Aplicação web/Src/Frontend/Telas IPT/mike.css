@@ -56,3 +56,9 @@ section
     line-height: 24.2px;
     color: black;
 }
+.foto
+{
+    height: 50px;
+    width: 85px;
+    text-align: end;
+}
