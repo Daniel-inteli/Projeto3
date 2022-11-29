@@ -59,8 +59,10 @@ section
 .foto
 {
     height: 50px;
-    width: 85px;
+    width: 95px;
     text-align: end;
+    margin-top: 12px;
+    margin-left: 270px;
 }
 .und
 {
@@ -71,4 +73,10 @@ section
     padding: 8px;
     width: 280px;
     
+}
+.foto2
+{
+    padding: 8px;
+    width: 50px;
+    margin-left: 25px;
 }
