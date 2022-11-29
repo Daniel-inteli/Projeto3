@@ -7,7 +7,6 @@ body{
     height: 39px;
     left: 253px;
     padding-left: 200px;
-    margin-top: 25px;
     justify-content: center;
 }
 
@@ -41,7 +40,7 @@ section{
     text-align: center;
 }
 
-nav{
+header{
     background-color: #ECF8FF;
     left: 110px;
     text-align: center;
@@ -128,8 +127,46 @@ h2{
     justify-content: center;
 }
 
+
+
+.menu{
+    border: 0;
+    background-color: #ECF8FF;
+    display: flex;
+    height: 40px;
+    width: 40px;
+}
+
+.cabe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+}
+
+.fim{
+    display: flex;
+
+    height: 70px;
+}
+
+.fundobot{
+    background: #F3F3F3;;
+    border: 0;
+    align-items: center;
+}
+
 .bot2{
-    padding-left: 300px;
-    width: 58.45px;
-    height: 58.45px;
+    padding-left: 230px;
+}
+
+.mapa{
+    border: 0;
+    align-items: center;
+    position: absolute;
+    width: 79px;
+    height: 79px;
+    left: 268px;
+    top: 755px;
+    background-color: transparent;
 }
