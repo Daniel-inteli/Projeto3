@@ -59,6 +59,8 @@ section
 .foto
 {
     height: 50px;
-    width: 85px;
+    width: 95px;
     text-align: end;
+    margin-top: 12px;
+    margin-left: 270px;
 }
