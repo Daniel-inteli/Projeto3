@@ -38,7 +38,7 @@ section
 .pesq
 {
     padding: 17px;
-    width: 250px;
+    width: 310px;
     border-radius: 40px;
     border: 0;
     
@@ -55,4 +55,20 @@ section
     font-size: 25px;
     line-height: 24.2px;
     color: black;
+}
+.foto
+{
+    height: 50px;
+    width: 85px;
+    text-align: end;
+}
+.und
+{
+    text-decoration: underline;
+}
+.img
+{
+    padding: 8px;
+    width: 280px;
+    
 }
