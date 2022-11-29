@@ -8,10 +8,7 @@ body{
     left: 253px;
     padding-left: 200px;
     margin-top: 25px;
-}
-
-.inputLupa{
-
+    justify-content: center;
 }
 
 .objeto{
@@ -30,6 +27,17 @@ section{
     width: 354px;
     height: 96px;
     margin: auto;
+    text-align: center;
+}
+
+.input{
+    width: 350px;
+    height: 40px;
+    left: 3px;
+    border-radius: 20px;
+    border: 0;
+    justify-content: center;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -60,7 +68,7 @@ h2{
     width: 71px;
     height: 75px;
     left: 300px;
-    top: 134px;
+    top: 197px;
     background: rgba(254, 58, 12, 0.38);
     border-radius: 15px;
     align-items: center;
@@ -73,7 +81,7 @@ h2{
     width: 71px;
     height: 75px;
     left: 300px;
-    top: 274px;
+    top: 334px;
     background: rgba(254, 58, 12, 0.38);
     border-radius: 15px;
     align-items: center;
@@ -86,7 +94,7 @@ h2{
     width: 71px;
     height: 75px;
     left: 300px;
-    top: 414px;
+    top: 471px;
     background: rgba(254, 58, 12, 0.38);
     border-radius: 15px;
     align-items: center;
@@ -99,7 +107,7 @@ h2{
     width: 71px;
     height: 75px;
     left: 300px;
-    top: 554px;
+    top: 608px;
     background: rgba(254, 58, 12, 0.38);
     border-radius: 15px;
     align-items: center;
@@ -112,7 +120,7 @@ h2{
     width: 71px;
     height: 75px;
     left: 300px;
-    top: 694px;
+    top: 745px;
     background: rgba(254, 58, 12, 0.38);
     border-radius: 15px;
     align-items: center;
@@ -120,13 +128,8 @@ h2{
     justify-content: center;
 }
 
-.procura{
-    position: absolute;
-width: 332px;
-height: 56px;
-left: 18px;
-top: 104px;
-
-background: #FFFFFF;
-border-radius: 25px;
+.bot2{
+    padding-left: 300px;
+    width: 58.45px;
+    height: 58.45px;
 }
