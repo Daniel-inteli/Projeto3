@@ -1,4 +1,42 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.minhabody
+{
+    font-family: 'Inter', sans-serif;
+}
+.cont
+{
+    position:absolute;
+    top: 0; 
+    left: 0;
+    width: 90vw;
+    height: 100vh;
+    background: rgba(8, 87, 134, 0.87);
+    display: flex;
+    flex-direction: column;
+    grid-gap: 75px;
+    z-index: 10;
+    padding-top: 30px;
+}
+
+.cont > p 
+{
+    font-size: 22px;
+    padding: 14px 30px;
+    background: rgba(8, 87, 134, 0.83);
+    border-radius: 20px;
+    color: white;
+<<<<<<< HEAD:src/Aplicação web/Src/Frontend/CSS/mike2.css
+
+}
+
+.outrabody{
     background: #F3F3F3;;
 }
 
@@ -45,8 +83,6 @@ header{
     left: 110px;
     text-align: center;
 }
-
-
 
 h1{
     margin-right: 40px;
@@ -126,8 +162,6 @@ h2{
     display: flex;
     justify-content: center;
 }
-
-
 
 .menu{
     border: 0;
@@ -237,4 +271,6 @@ h2{
     top: 788px;
     background: transparent;
 }
-
+=======
+}
+>>>>>>> fe980d94a124872c39d27526c5756b7d6b1ba7f6:src/Aplicação web/Src/Frontend/CSS/MenuLateral.css

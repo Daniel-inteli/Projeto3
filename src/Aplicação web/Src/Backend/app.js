@@ -19,7 +19,7 @@ const PORT = process.env.PORT || 3001;
 
 const dispositivoRouter = require("./routes/dispositivos");
 app.use("/dispositivos", dispositivoRouter);
-app.use(express.static("../../Front-end"));
+app.use(express.static("../Frontend"));
 app.use((err, req, res, next) => {
   if (err instanceof Error) {
     console.log();
