@@ -1,8 +1,9 @@
-body{
-    background: #F3F3F3;;
+body {
+    background: #F3F3F3;
+    ;
 }
 
-.logo{
+.logo {
     width: 97px;
     height: 39px;
     left: 253px;
@@ -10,7 +11,7 @@ body{
     justify-content: center;
 }
 
-.objeto{
+.objeto {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -19,17 +20,32 @@ body{
     text-align: center;
 }
 
-section{
-    background-color: rgb(199, 199, 199);
+.button {
+    background-color: rgb(199, 199, 199) !important;
     border-radius: 10px;
     padding: 12px;
-    width: 354px;
-    height: 96px;
+    width: 100%;
+    height: max-content;
     margin: auto;
-    text-align: center;
+    max-width: 340px;
+    margin-bottom: 20px;
+    border: none !important;
+
 }
 
-.input{
+
+.container {
+    display: flex;
+    width: 100% !important;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.infos{
+    margin-right: 10px;
+}
+
+.input {
     width: 350px;
     height: 40px;
     left: 3px;
@@ -40,7 +56,7 @@ section{
     text-align: center;
 }
 
-header{
+header {
     background-color: #ECF8FF;
     left: 110px;
     text-align: center;
@@ -48,11 +64,20 @@ header{
 
 
 
-h1{
-    margin-right: 40px;
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
 }
 
-h2{
+p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #444444;
+}
+
+h2 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -62,74 +87,27 @@ h2{
     color: #8B1E04;
 }
 
-.caixinha1{
-    position: absolute;
-    width: 71px;
+.caixinha1 {
+    /* position: absolute; */
+    width: 30%;
     height: 75px;
-    left: 300px;
-    top: 220px;
-    background: rgba(254, 58, 12, 0.38);
-    border-radius: 15px;
-    align-items: center;
+    text-align: center;
+    padding: 5px;
     display: flex;
     justify-content: center;
-}
-
-.caixinha2{
-    position: absolute;
-    width: 71px;
-    height: 75px;
-    left: 300px;
-    top: 356px;
     background: rgba(254, 58, 12, 0.38);
     border-radius: 15px;
     align-items: center;
     display: flex;
-    justify-content: center;
-}
-
-.caixinha3{
-    position: absolute;
-    width: 71px;
-    height: 75px;
-    left: 300px;
-    top: 492px;
-    background: rgba(254, 58, 12, 0.38);
-    border-radius: 15px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.caixinha4{
-    position: absolute;
-    width: 71px;
-    height: 75px;
-    left: 300px;
-    top: 628px;
-    background: rgba(254, 58, 12, 0.38);
-    border-radius: 15px;
-    align-items: center;
-    display: flex;
-
-}
-
-.caixinha5{
-    position: absolute;
-    width: 71px;
-    height: 75px;
-    left: 300px;
-    top: 764px;
-    background: rgba(254, 58, 12, 0.38);
-    border-radius: 15px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: #8B1E04;
+    font-weight: bold
 }
 
 
-
-.menu{
+.menu {
     border: 0;
     background-color: #ECF8FF;
     display: flex;
@@ -137,30 +115,30 @@ h2{
     width: 40px;
 }
 
-.cabe{
+.cabe {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 70px;
 }
 
-.fim{
+.fim {
     display: flex;
-
+    justify-content: space-between;
     height: 70px;
 }
 
-.fundobot{
-    background: #F3F3F3;;
+.fundobot {
+    background: #F3F3F3;
+    ;
     border: 0;
     align-items: center;
 }
-
-.bot2{
-    padding-left: 230px;
+#listagem{
+    text-align: center;
 }
 
-.mapa{
+.mapa {
     border: 0;
     align-items: center;
     position: absolute;
@@ -171,7 +149,7 @@ h2{
     background-color: transparent;
 }
 
-.bank{
+.bank {
     background-color: rgb(199, 199, 199);
     border-radius: 10px;
     border: 0;
@@ -179,7 +157,7 @@ h2{
     padding-right: 35px;
 }
 
-.lupa{
+.lupa {
     position: absolute;
     height: 33px;
     border-radius: 0px;
@@ -189,11 +167,11 @@ h2{
 
 }
 
-.botlupa{
+.botlupa {
     border: 0;
 }
 
-.botcaixa1{
+.botcaixa1 {
     position: absolute;
     font-size: 32px;
     border: 0;
@@ -202,7 +180,7 @@ h2{
     background: transparent;
 }
 
-.botcaixa2{
+.botcaixa2 {
     position: absolute;
     font-size: 32px;
     border: 0;
@@ -211,7 +189,7 @@ h2{
     background: transparent;
 }
 
-.botcaixa3{
+.botcaixa3 {
     position: absolute;
     font-size: 32px;
     border: 0;
@@ -220,7 +198,7 @@ h2{
     background: transparent;
 }
 
-.botcaixa4{
+.botcaixa4 {
     position: absolute;
     font-size: 32px;
     border: 0;
@@ -229,7 +207,7 @@ h2{
     background: transparent;
 }
 
-.botcaixa5{
+.botcaixa5 {
     position: absolute;
     font-size: 32px;
     border: 0;
@@ -237,4 +215,3 @@ h2{
     top: 788px;
     background: transparent;
 }
-
