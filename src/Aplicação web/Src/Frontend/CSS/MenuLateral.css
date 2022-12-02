@@ -116,7 +116,7 @@ h2{
     width: 71px;
     height: 75px;
     left: 300px;
-    top: 356px;
+    top: 340px;
     background: rgba(254, 58, 12, 0.38);
     border-radius: 15px;
     align-items: center;
@@ -129,7 +129,7 @@ h2{
     width: 71px;
     height: 75px;
     left: 300px;
-    top: 492px;
+    top: 460px;
     background: rgba(254, 58, 12, 0.38);
     border-radius: 15px;
     align-items: center;
@@ -142,10 +142,10 @@ h2{
     width: 71px;
     height: 75px;
     left: 300px;
-    top: 628px;
+    top: 570px;
+    right: 300px;
     background: rgba(254, 58, 12, 0.38);
     border-radius: 15px;
-    align-items: center;
     display: flex;
 
 }
@@ -155,7 +155,7 @@ h2{
     width: 71px;
     height: 75px;
     left: 300px;
-    top: 764px;
+    top: 690px;
     background: rgba(254, 58, 12, 0.38);
     border-radius: 15px;
     align-items: center;
@@ -231,7 +231,7 @@ h2{
     position: absolute;
     font-size: 32px;
     border: 0;
-    right: 25px;
+    right: 30px;
     top: 240px;
     background: transparent;
 }
@@ -240,8 +240,8 @@ h2{
     position: absolute;
     font-size: 32px;
     border: 0;
-    right: 25px;
-    top: 377px;
+    right: 40px;
+    top: 365px;
     background: transparent;
 }
 
@@ -250,7 +250,7 @@ h2{
     font-size: 32px;
     border: 0;
     right: 25px;
-    top: 514px;
+    top: 480px;
     background: transparent;
 }
 
@@ -259,7 +259,7 @@ h2{
     font-size: 32px;
     border: 0;
     right: 25px;
-    top: 651px;
+    top: 590px;
     background: transparent;
 }
 
@@ -268,7 +268,7 @@ h2{
     font-size: 32px;
     border: 0;
     right: 25px;
-    top: 788px;
+    top: 710px;
     background: transparent;
 }
 =======
