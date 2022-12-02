@@ -20,11 +20,11 @@ async function listDevices(devices) {
     inicial= inicial.toUpperCase();
     console.log(inicial);
     document.getElementById('listagem').innerHTML += `
-    <button class="button" onclick="verDispositivo(${devices[i].id})">
+    <button class="button" onclick="verDispositivo(${devices[i].codigo_patrimonio})">
     <div class="container">
     <div class="infos">
     <h1>${devices[i].nome} - ${devices[i].codigo_patrimonio}</h1>
-    <p>Prédio 53 - Andar 6 - Sala 3</p>
+    <p>Prédio: ${devices[i].predio}  - Sala: ${devices[i].sala}</p>
     </div>
     <div class="caixinha1">${inicial}</div>
     </div>
@@ -36,7 +36,7 @@ async function listDevices(devices) {
 
 }
 
-function verDispositivo(deviceId){
-    window.location.href = `/view/view-device-adm.html?id=${deviceId}`;
+function verDispositivo(codigo_patrimonio){
+    window.location.href = `/HTML/ResumoEquipam.html?id=${codigo_patrimonio}`;
     
 }
